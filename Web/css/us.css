@@ -1,0 +1,27 @@
+.member_contents{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 70px 0px;
+    border-bottom: solid 2px #c2c2c2;
+}
+.member_contents img{
+    border-radius: 150px;
+}
+.rightText{
+    width: 470px;
+    padding-left: 30px;
+    line-height: 30px;
+}
+.menberName{
+    text-align: center;
+    margin: 5px;
+    font-weight: normal;
+}
+.leftText{
+    width: 470px;
+    padding-right: 30px;
+    line-height: 30px;
+
+}

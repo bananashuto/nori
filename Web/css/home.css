@@ -1,0 +1,134 @@
+
+/******* ヘッダーイメージ ********/
+.top_image{
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/adcf_3.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;   
+}
+
+
+/******* セクション 01 (2カラム)********/
+.twoclum{
+  padding: 3% 0%;
+  display: flex;
+  justify-content: center;
+  align-items:top;
+ }
+.twoclum_Img{
+  width: 40%;
+  height: 300px;
+  /* background-image: url("../img/001.png"); */
+  background-color: rgb(215, 215, 215);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+  padding: 0;
+}
+.twoclum_Text{
+  width: 400px;
+  padding: 0 40px;
+  line-height: 30px;
+  margin-top: 0px;
+}
+
+
+/******* セクション 02 ********/
+.photocontents{
+  width: 900px;
+  background-color: rgb(179, 179, 179);
+  margin: 0 auto;
+  display: flex;
+  margin-top: 20px;
+}
+.naviImg{
+  width: 300px;
+  height: 180px;
+  background-image: url("../img/c688ec4182cb23b41b831fb53b5f06003_4620693218524842082_200326_0002.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.naviImg2{
+  width: 300px;
+  height: 180px;
+  background-image: url("../img/ArtDlgCf_S2_20200718.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/******* セクション 03 ********/
+.osm_Wrap{
+  display: flex;
+  justify-content: center;
+  margin: 35px;
+}
+.osm_content{
+  width: 250px;
+  height: 300px;
+  margin: auto 10px;
+}
+.osm_Img1{
+  width: 250px;
+  height: 250px;
+  background-color: #e4e4e4;
+}
+.osm_Text{
+  text-align: center;
+}
+
+
+/******* セクション 04 ********/
+.archive_wapper{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.content_img_1{
+  width: 250px;
+  height: 250px;
+  background-image: url(../img/kiroku_001.png);
+  background-position: center center;
+  background-size: cover;
+}
+.content{
+  text-align: center;
+  margin: 0 10px;
+  width: 250px;
+}
+.content img{
+  width: 250px;
+  height: auto;
+}
+.content p{
+  font-size: 14px;
+}
+
+.content_img_2{
+  width: 250px;
+  height: 250px;
+
+  background-image: url(../img/kiroku_002.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.content_img_3{
+  width: 250px;
+  height: 250px;
+  background-image: url(../img/kiroku_003.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+

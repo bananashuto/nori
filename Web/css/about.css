@@ -1,0 +1,113 @@
+
+/******* VTSについて ********/
+.VTS_content{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  width: 1000px;
+  margin: 40px auto;
+}
+.VTS_bookimg{
+  width: 260px;
+  height: 360px;
+  background-image: url("../img/VTS_book.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.VTS_text{
+  width: 500px;
+  margin-top: 0px;
+  padding-left: 40px;
+  line-height: 30px;
+}
+
+/******* ACOPについて ********/
+.ACOP_content{
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  margin: 40px auto;
+}
+.ACOPbookimg{
+  width: 260px;
+  height: 360px;
+  background-image: url("../img/ACOP_book.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.ACOP_text{
+  width: 500px;
+  margin-top: 0px;
+  padding-right: 40px;
+  text-align: left;
+  line-height: 30px;
+}
+
+
+/******* 学力を育てる対話型鑑賞  ********/
+    .meritWrapp{
+      display: flex;
+      justify-content: space-between;
+      margin: 20px auto;
+      width: 800px;
+    }
+  .meritcontent{
+    width: 250px;
+    height: 400px;
+  }
+  
+    .meritImg1{
+      width: 250px;
+      height: 250px;
+      background-color: #e4e4e4;
+    }
+    .meritText1{
+      text-align: center;
+    }
+
+    .meritText3{
+      font-size: 12px;
+      text-align: center;
+      line-height: 20px;
+    }
+
+    .merit_text2{
+      padding-top: 20px;
+      line-height: 35px;
+      width: 800px;
+      text-align: center;
+      margin: 0 auto;
+    }
+
+
+
+    .wordlist{
+      width: 550px;
+      margin: 0 auto;
+      text-align: center;
+      list-style: none;
+      font-weight: bold;
+      background-color: #ebebeb;
+      border-radius: 30px;
+      padding: 30px 0px;
+    }
+
+    .wordlist li {
+      padding: 20px 0px;
+      line-height: 30px;
+    }
+
+
+
+    .venue_wrap{
+      display: flex;
+      justify-content: center;
+    }
+    .venue_wrap img{
+      margin: 0 10px;
+      opacity: 0.7;
+    }
+    .venue_Text{
+      text-align: center;
+      margin-top: 0px;
+    }

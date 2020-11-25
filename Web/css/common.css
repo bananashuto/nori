@@ -1,0 +1,118 @@
+
+/******* ボディ ********/
+body{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: #fefefe; */
+    /* font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif; */
+  }
+
+  
+/******* ヘッダー ********/
+.hedderWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10％ 0%;
+    background-color: #fff;
+}
+.Home{
+    width: 180px;
+    height: 54px;
+    background-image: url("../img/logo_1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+}
+.nav-item{
+    padding-left: 40px;
+}
+.nav-item>a{
+    color: rgb(41, 41, 41);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+
+/******* セクションA(白) ********/
+.secA_wrapper{
+    padding: 30px 0px;
+    background-color: #fafafa;
+}
+/******* セクションB(グレー) ********/
+.secB_wrapper{
+    padding: 60px 0px;
+    background-color: rgb(240, 240, 240);
+    padding-bottom: 80px;
+}
+/******* タイトル(h2,h3,テキスト) ********/
+.common_h2{
+    text-align: center;
+    font-size: 22px;
+    color: #000000;
+}
+.common_h3{
+    text-align: center;
+    margin: 30px auto;
+    border-bottom: solid 2px #5A5CE6;
+    width: 500px;
+}
+.common_text{
+    padding: 10px 0px;
+    line-height: 30px;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .common_BoxText{
+    width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 30px;
+  }
+
+
+
+
+/******* フッター ********/
+footer{
+    padding: 50px 0;
+    background: #dedef5;
+    /* height: 00px; */
+    margin: 0px auto;
+    text-align: center;
+}
+.footmenu {
+    text-align: left;
+}
+
+.footmenu ul{
+    padding-left: 0px;
+}
+
+
+.footmenu li {
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+}
+
+.snswarapp{
+    margin: 0 auto;
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.snswarapp p{
+    text-align: left;
+    border-bottom: solid 2px #5A5CE6;
+    width: 200px;
+    font-weight: bold;
+}

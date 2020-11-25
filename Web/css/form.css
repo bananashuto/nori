@@ -1,0 +1,78 @@
+/******* 開催予定 ********/
+
+.Next_wapper{
+  padding: 20px 0px;
+  display: flex;
+  justify-content: left;
+}
+.Next_contents{
+  margin: 0 15px;
+}
+.Next_contents h3{
+  width: 350px;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  /* background-color: rgb(69, 170, 118); */
+  background-color: rgb(82, 82, 82);
+  border-radius: 5px;
+  text-align: center;
+}
+.Next_img{
+  width: 350px;
+  height: 190px;
+  background-image: url(../img/adcf_2.png);
+  background-size: cover;
+  background-position: center;
+}
+.Next_wapper p{
+  font-size: 14px;
+  text-align: left;
+  font-weight: bold;
+  line-height: 25px;
+  padding-left: 5px;
+}
+
+
+/******* 入力フォーム ********/
+
+.form {
+  margin: 0 auto;
+}
+.form th{
+  text-align: left;
+  padding: 20px 20px;
+  font-size: 16px;
+}
+
+.form td{
+  font-size: 16px;
+}
+.form_item{
+  text-align: left;
+}
+
+
+/* LINEのすすめ */
+.form_line{
+  display: flex;
+  justify-content: center;
+}
+
+
+/******* 事前にご確認ください ********/
+.info_contents{
+width: 600px;
+margin: 0 auto;
+}
+.info_h3{
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+  
+
+        
+  
+  
+  
