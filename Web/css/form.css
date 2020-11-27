@@ -3,7 +3,6 @@
 .Next_wapper{
   padding: 20px 0px;
   display: flex;
-  justify-content: left;
 }
 .Next_contents{
   margin: 0 15px;
@@ -74,5 +73,90 @@ margin: 0 auto;
 
         
   
+      /******* レスポンシブ  ********/
+    /******* レスポンシブ  ********/
+    /******* レスポンシブ  ********/
+@media screen and (max-width: 640px) { 
+
+  /******* 開催予定 ********/
+
+.Next_wapper{
+  display: block;
+}
+.Next_contents{
+  width: 90%;
+
+}
+
+.Next_contents h3{
+  width: 90%;
+  margin: 20px auto;
+  font-size: 14px;
+  border-radius: 5px;
+  text-align: center;
+}
+.Next_img{
+  width: 90%;
+  height: 160px;
+  margin: 0 auto;
+}
+.Next_contents>p{
+  padding-left: 35px;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+
+
+
+
+/******* 入力フォーム ********/
+
+.form {
+  display: block;
+  text-align: left;
+  padding: 20px 20px;
+  font-size: 16px;
+}
+.form tr{
+  width: 100%;
+  display: block;
+}
+
+.form th{
+  width: 100%;
+  display: block;
+  padding-left: 0px;
+  padding-bottom: 10px;
+}
+
+.form td{
+  width: 100%;
+  display: block;
+}
+.form_item{
+  text-align: left;
+}
+
+
+/* LINEのすすめ */
+.form_line{
+  display: flex;
+  justify-content: center;
+}
   
-  
+/******* 事前にご確認ください ********/
+.info_contents{
+  width: 90%;
+  margin: 0 auto;
+  }
+  .info_h3{
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  .info_contents li {
+    font-size: 13px;
+  }
+
+}
