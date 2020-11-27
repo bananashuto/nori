@@ -1,59 +1,20 @@
 
-@media screen and (max-width: 479px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+@media screen and (max-width: 640px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
 	body{
-	color: #ff0000; /*緑色*/
 	font-size: 14px;
-	max-width: 480px;
+	max-width: 400px;
+	width: 96%;
 	}
-
-
-/******* ヘッダー ********/
-	.hedderWrapper{
-		display: unset;
-		padding: 10％ 0%;
-		background-color: #fff;
-	}
-
-	.Home{
-		width: 50%;
-		height: 60px;
-	}
-	.nav-list{
-		display: unset;
-	}
-	.nav-item{
-		padding-left: 10px;
-	}
-	.nav-item>a{
-		color: rgb(41, 41, 41);
-		font-size: 10px;
-		text-decoration: none;
-	}
-	.top_image{
-		width: 100%;
-		height: 200px;
-		background-image: url("../img/adcf_3.png");
-		background-repeat: no-repeat;
-		background-position: center center;
-		background-size: cover;   
-	}
-
 
 
 
   /******* セクション 01 (2カラム)********/
 .twoclum{
-	display: unset;
-  
+	display: block;
    }
   .twoclum_Img{
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
-	/* background-image: url("../img/001.png"); */
-	background-color: rgb(215, 215, 215);
-	background-repeat: no-repeat;
-	background-position: left top;
-	background-size: cover;
   }
   .twoclum_Text{
 	width: 80%;
@@ -63,74 +24,28 @@
 
 /******* タイトル(h2,h3,テキスト) ********/
 .common_h2{
-    font-size: 16px;
+	font-size: 16px;
 }
 .common_h3{
     border-bottom: solid 2px #5A5CE6;
-    width: 90%;
+	width: 300px;
+	font-size: 15px;
+	margin: 20px auto;
 }
 .common_text{
-width: 90%;
- 
+max-width: 80%;
+text-align: left;
   }
+
+  .secB_wrapper{
+	  width: 100%;
+  }
+
   .common_BoxText{
-	width: 90%;
-  }
-
-  /******* セクション 02 ********/
-.photocontents{
-	display: unset;
-  }
-  .naviImg{
-margin: 0 auto;
-  }
-  .naviImg2{
-	margin: 0 auto;
-  }
-
-  .twoclum_Img{
-	width: 90%;
-	height: 200px;
-
+    max-width: 90%;
   }
 
 
-  /******* セクション 03 ********/
-.osm_Wrap{
-	display: unset;
-	width: 90%;
-  }
-
-  .osm_content{
-margin: 0 auto;
-  }
-  
-  /******* セクション 04 ********/
-  .archive_wapper{
-	display: unset;
-  }
-
-.content{
-  margin: 0 auto;
-}
-.content_img_1{
-	width: 200px;
-	height: 200px;
-  }
-.content p{
-  font-size: 12px;
-  width: 90%;
-}
-
-.content_img_2{
-  width: 200px;
-  height: 200px;
-}
-
-.content_img_3{
-  width: 200px;
-  height: 200px;
-}
 
 /******* フッター ********/
 footer{
@@ -143,20 +58,19 @@ footer{
 }
 
 .footmenu ul{
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
 
 .footmenu li {
-    list-style: none;
     text-align: center;
-    padding-left: 0px;
+	line-height: 30px;
+	font-size: 10px;
 }
 
 .snswarapp{
     margin: 0 auto;
     display: unset;
-
 }
 
 .snswarapp p{
@@ -165,6 +79,19 @@ footer{
 	margin: 10px auto;
 	width: 90%;
 }
+
+.facebookpage>iframe{
+	margin: 0 auto;
+}
+
+
+
+/******* ボタン ********/
+.btn{
+    widows: 270px;
+    height: 60px;
+}
+
 
 }
 

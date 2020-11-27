@@ -9,16 +9,15 @@
   background-size: cover;   
 }
 
-
 /******* セクション 01 (2カラム)********/
 .twoclum{
-  padding: 3% 0%;
   display: flex;
   justify-content: center;
   align-items:top;
+
  }
 .twoclum_Img{
-  width: 40%;
+  width: 35%;
   height: 300px;
   /* background-image: url("../img/001.png"); */
   background-color: rgb(215, 215, 215);
@@ -28,8 +27,8 @@
   padding: 0;
 }
 .twoclum_Text{
-  width: 400px;
-  padding: 0 40px;
+  width: 35%;
+  padding: 0 30px;
   line-height: 30px;
   margin-top: 0px;
 }
@@ -37,7 +36,7 @@
 
 /******* セクション 02 ********/
 .photocontents{
-  width: 900px;
+  width: 75%;
   background-color: rgb(179, 179, 179);
   margin: 0 auto;
   display: flex;
@@ -69,7 +68,7 @@
 .osm_content{
   width: 250px;
   height: 300px;
-  margin: auto 10px;
+  margin: auto 5px;
 }
 .osm_Img1{
   width: 250px;
@@ -86,6 +85,8 @@
   display: flex;
   justify-content: center;
   padding-top: 30px;
+  width: 100%;
+  margin: 0 auto;
 }
 .content_img_1{
   width: 250px;
@@ -93,6 +94,7 @@
   background-image: url(../img/kiroku_001.png);
   background-position: center center;
   background-size: cover;
+  margin: 0 auto;
 }
 .content{
   text-align: center;
@@ -114,6 +116,7 @@
   background-image: url(../img/kiroku_002.jpg);
   background-position: center center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 .content_img_3{
@@ -122,10 +125,72 @@
   background-image: url(../img/kiroku_003.jpg);
   background-position: center center;
   background-size: cover;
+  margin: 0 auto;
 }
 
 
+    /******* レスポンシブ  ********/
+    /******* レスポンシブ  ********/
+    /******* レスポンシブ  ********/
 
+@media screen and (max-width: 640px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+
+  /******* セクション 02 ********/
+  .photocontents{
+    display: unset;
+    }
+    .naviImg{
+  margin: 0 auto;
+    }
+    .naviImg2{
+    margin: 0 auto;
+    }
+  
+    .twoclum_Img{
+    width: 90%;
+    height: 200px;
+  
+    }
+  
+  
+    /******* セクション 03 ********/
+  .osm_Wrap{
+    display: unset;
+    width: 90%;
+    }
+  
+    .osm_content{
+  margin: 0 auto;
+    }
+    
+    /******* セクション 04 ********/
+    .archive_wapper{
+    display: unset;
+    }
+  
+  .content{
+    margin: 0 auto;
+  }
+  .content_img_1{
+    width: 200px;
+    height: 200px;
+    }
+  .content p{
+    font-size: 12px;
+    width: 90%;
+  }
+  
+  .content_img_2{
+    width: 200px;
+    height: 200px;
+  }
+  
+  .content_img_3{
+    width: 200px;
+    height: 200px;
+  }
+
+}
 
 
 
