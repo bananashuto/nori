@@ -4,7 +4,6 @@
   display: flex;
   justify-content: center;
   align-items: top;
-  width: 1000px;
   margin: 40px auto;
 }
 .VTS_bookimg{
@@ -38,8 +37,7 @@
 .ACOP_text{
   width: 500px;
   margin-top: 0px;
-  padding-right: 40px;
-  text-align: left;
+  padding-left: 40px;
   line-height: 30px;
 }
 
@@ -93,7 +91,7 @@
     }
 
     .wordlist li {
-      padding: 20px 0px;
+      padding: 20px 20px;
       line-height: 30px;
     }
 
@@ -110,4 +108,93 @@
     .venue_Text{
       text-align: center;
       margin-top: 0px;
+    }
+
+
+
+
+
+
+
+    /******* レスポンシブ  ********/
+    /******* レスポンシブ  ********/
+    /******* レスポンシブ  ********/
+
+
+    @media screen and (max-width: 640px) { /*ウィンドウ幅が最大479pxまでの場合に適用*/
+
+    /******* VTSについて ********/
+  .VTS_content{
+    display: block;
+    width: 90%;
+    margin: 40px auto;
+  }
+  .VTS_bookimg{
+    width: 210px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .VTS_text{
+    margin-top: 30px;
+    width: 80%;
+    line-height: 30px;
+  }
+
+  /******* ACOPについて ********/
+.ACOP_content{
+  display: block;
+  margin: 40px auto;
+}
+.ACOPbookimg{
+  width: 210px;
+  height: 300px;
+  margin: 0px auto;
+}
+.ACOP_text{
+  margin-top: 30px;
+  width: 80%;
+  padding-right: 40px;
+  text-align: left;
+  line-height: 30px;
+}
+/******* 学力を育てる対話型鑑賞  ********/
+
+.meritWrapp{
+  display: block;
+  margin: 20px auto;
+  width: 90%;
+}
+.meritcontent{
+width: 250px;
+height: 400px;
+margin: 0 auto;
+}
+
+/* ******* ナビゲーター  ******** */
+
+.wordlist{
+  width: 90%;
+  border-radius: 20px;
+}
+
+.wordlist li {
+  font-size: 14px;
+  padding: 20px 20px;
+  line-height: 20px;
+}
+
+
+/* <!-- 学力を育てる対話型鑑賞! -->  */
+.venue_wrap{
+  display: block;
+}
+
+.venue_wrap img{
+  width: 80%;
+  opacity: 0.7;
+}
+.venue_contents{
+  text-align: center;
+}
+      
     }
