@@ -7,14 +7,34 @@
     <link rel="stylesheet" href="css/us.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/common_2.css">
+    <!-- レスポンシブ -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="css/res-hedder.css">
+    <link rel="stylesheet" href="css/res-common.css">
+
 </head>
+
 <body>
-    <!-- header -->
-    <header class="header">
+  <div class="wrapper">
+      <!-- header -->
+      <header id="header">
         <div class="hedderWrapper">
             <a href="index.html"><div class="Home" ></div></a>
+            <!-- スライドメニュー -->
+            <div id="humberger">
+              <svg viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="menuButtonTitle">
+                <title id="menuButtonTitle">Menu</title>
+                 <symbol id="bar">
+                   <rect width="40" height="4" fill="#000"></rect>
+                  </symbol>
+                 <use xlink:href="#bar" x="8" y="14"></use>
+                 <use xlink:href="#bar" x="8" y="24"></use>
+                 <use xlink:href="#bar" x="8" y="34"></use>
+               </svg>
+            </div>
+
             <nav>  
-                  <ul class="nav-list" >
+                  <ul class="nav-list "  >
                       <li class="nav-item"><a href="about.html">対話型美術鑑賞とは</a></li>
                       <li class="nav-item"><a href="archive.html">開催記録</a></li>
                       <li class="nav-item"><a href="form.html">開催情報＆お申込み</a></li>
@@ -22,7 +42,7 @@
                       <li class="nav-item"><a href="us.html">私たちについて</a></li>
                   </ul>
              </nav> 
-        </div>
+        </div> 
     </header>
 
 
@@ -69,7 +89,11 @@
         </div>
         <!-- ひのくちさん -->
         <div class="member_contents">
-            <p class="leftText">2001年生まれ。東京都出身（ちなみに，福岡と東京のハーフです笑）
+            <div class="menber_img">
+                <img src="img/profile/hino_450px.png" alt="" width="300" height="300px">
+                <h3 class="menberName">火の口 史野</h3>
+            </div>
+            <p class="rightText">2001年生まれ。東京都出身（ちなみに，福岡と東京のハーフです笑）
                 １年ほどの海外留学体験アリ（NZ）
                  幼い頃の悲嘆を原体験にして，家庭や学校などの身近な生活空間の中における対話の持つ癒しの効果について
                 興味を持ちながら生きてきた。特に，聴くという力を伸ばすことで，
@@ -81,10 +105,6 @@
                 九州大学共創学部に在籍し，対話の学際的研究に励む。学問的関心は，公共哲学，臨床心理学，
                 教育学，医療人類学など。皆さんと対話できることを楽しみにしております！
             </p>
-            <div class="menber_img">
-                <img src="img/profile/hino_450px.png" alt="" width="300" height="300px">
-                <h3 class="menberName">火の口 史野</h3>
-            </div>
         </div>
 
         <!-- 井上さん -->
@@ -105,7 +125,11 @@
         </div>
         <!-- ケイさん -->
         <div class="member_contents">
-            <p class="leftText">九州大学・大学院・名誉教授
+            <div class="menber_img">
+                <img src="img/profile/kay_450px.png" alt="" width="300" height="300px">
+                <h3 class="menberName">客員メンバー<br> 太和田 勝久（略称：Kay）</h3>
+            </div>
+            <p class="rightText">九州大学・大学院・名誉教授
                 理系研究者なので議論には慣れているが、対話に不慣れであることを定年退職後に気付いた。
                 それで、対話を練習するために哲学（対話）カフェに参加するようになった。
                 それが契機となり、対話型鑑賞（Visual Thinking Strategies；VTS）に偶然に出会った。
@@ -114,10 +138,6 @@
                 問いかけに工夫がなされている。その結果、VTSを数回体験するうちに、子どもでも証拠推論が自然に習慣として身につく。
                 このように優れた教育方法でもあるVTSが日本で広く浸透し、事実（証拠）に基づいて考える人が増えることを願っている。
             </p>
-            <div class="menber_img">
-                <img src="img/profile/kay_450px.png" alt="" width="300" height="300px">
-                <h3 class="menberName">客員メンバー<br> 太和田 勝久（略称：Kay）</h3>
-            </div>
         </div>
     </section>
 
@@ -168,7 +188,8 @@
 
 
 
-
+<!-- Javascript -->
+<script src="js/main.js"></script>
 
 
 

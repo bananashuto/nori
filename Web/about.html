@@ -7,25 +7,43 @@
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/common_2.css">
+    <!-- レスポンシブ -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
+    <link rel="stylesheet" href="css/res-hedder.css">
+    <link rel="stylesheet" href="css/res-common.css">
+
 </head>
 
-
 <body>
-    <!-- header -->
-    <header class="header">
-      <div class="hedderWrapper">
-          <a href="index.html"><div class="Home" ></div></a>
-          <nav>  
-                <ul class="nav-list" >
-                    <li class="nav-item"><a href="about.html">対話型美術鑑賞とは</a></li>
-                    <li class="nav-item"><a href="archive.html">開催記録</a></li>
-                    <li class="nav-item"><a href="form.html">開催情報＆お申込み</a></li>
-                    <li class="nav-item"><a href="blog.html">ブログ</a></li>
-                    <li class="nav-item"><a href="us.html">私たちについて</a></li>
-                </ul>
-           </nav> 
-      </div>  
-  </header>
+  <div class="wrapper">
+      <!-- header -->
+      <header id="header">
+        <div class="hedderWrapper">
+            <a href="index.html"><div class="Home" ></div></a>
+            <!-- スライドメニュー -->
+            <div id="humberger">
+              <svg viewBox="0 0 44 44" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" aria-labelledby="menuButtonTitle">
+                <title id="menuButtonTitle">Menu</title>
+                 <symbol id="bar">
+                   <rect width="40" height="4" fill="#000"></rect>
+                  </symbol>
+                 <use xlink:href="#bar" x="8" y="14"></use>
+                 <use xlink:href="#bar" x="8" y="24"></use>
+                 <use xlink:href="#bar" x="8" y="34"></use>
+               </svg>
+            </div>
+
+            <nav>  
+                  <ul class="nav-list "  >
+                      <li class="nav-item"><a href="about.html">対話型美術鑑賞とは</a></li>
+                      <li class="nav-item"><a href="archive.html">開催記録</a></li>
+                      <li class="nav-item"><a href="form.html">開催情報＆お申込み</a></li>
+                      <li class="nav-item"><a href="blog.html">ブログ</a></li>
+                      <li class="nav-item"><a href="us.html">私たちについて</a></li>
+                  </ul>
+             </nav> 
+        </div> 
+    </header>
 
     
     <!-- VTSについて -->
@@ -55,6 +73,7 @@
     <!-- ACOPについて -->
         <h3 class="common_h3">日本で始まったACOP</h3>
         <div class="ACOP_content">
+          <div class="ACOPbookimg"></div>
             <p class="ACOP_text">ACOP / エイコップは京都造形芸術大学で福のり子先生を中心に推進しているものです。
                 福先生はMoMAでVTSの前身であるVTCを学び、日本に精通させるため、
                 VTSを変化させて日本の言葉を用いて変革しました。
@@ -66,7 +85,6 @@
                 「どこからそう思う？」という問いかけをすることで、
                 絵の中から具体的な根拠を見つけ出すことができる。
           </p>
-          <div class="ACOPbookimg"></div>
         </div>
     </section>
 
@@ -111,7 +129,7 @@
           アート対話カフェでは、VTSとACOPに習い、ナビゲーターが３つの問いかけを心がけています。
         </p>
         <ul class="wordlist">
-          <li>絵をみて感じたこと、発見したこと、疑問に思ったことなど、<br> 
+          <li>絵をみて感じたこと、発見したこと、疑問に思ったことなど、
             自由に発言してください。</li>
           <li>絵のどこからそう思いましたか？</li>
           <li>そこからどう思う？</li>
@@ -134,21 +152,21 @@
           美術作品が好きな方や、読書会などでも開催されることがあります。
         </p>
         <div class="venue_wrap">
-          <div>
+          <div class="venue_contents">
             <img src="img/ArtDlgCf_S2_20200718.jpg" alt="" width="400px">
             <p class="venue_Text">美術館</p>
           </div>
-          <div>
+          <div class="venue_contents">
            <img src="img/ArtDlgCf_S2_20200718.jpg" alt="" width="400px">
            <p class="venue_Text">学校</p>
           </div>
         </div>
         <div class="venue_wrap">
-          <div>
+          <div class="venue_contents">
             <img src="img/ArtDlgCf_S2_20200718.jpg" alt="" width="400px">
             <p class="venue_Text">企業</p>
           </div>
-          <div>
+          <div class="venue_contents">
            <img src="img/ArtDlgCf_S2_20200718.jpg" alt="" width="400px">
            <p class="venue_Text">社会の様々な場所</p>
           </div>
@@ -195,4 +213,8 @@
         </div>
       </footer>
         <small class="copyright">copyrights 2020 Art Dialogue Cafe @Fukuoka All Rights Reserved.</small> 
+
+<!-- Javascript -->
+        <script src="js/main.js"></script>
 </body>
+</html>
